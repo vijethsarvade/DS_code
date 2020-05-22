@@ -28,7 +28,6 @@ test=subset(iris,sample==FALSE)
 ###4.Data Modeling/Model building using libraries like rpart,rpart.plot 
 library(rpart)
 names(data)
-#iris_model=rpart(Species~Sepal.Length+Sepal.Width+Petal.Length+Petal.Width,train,method = "class")#same can also be written as
 iris_model=rpart(Species~.,train,method = "class")#class means classification
 iris_model                 
 #Tree visualization using in-bulid function and gglot2

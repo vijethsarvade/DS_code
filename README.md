@@ -1,5 +1,5 @@
 # DS_code_Resolving classification problem using IRIS data set with 91.6% accuracy
-##breif introduction-iris is a data frame with 150 cases (rows) and 5 variables (columns) named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species.
+##Brief introduction-iris is a data frame with 150 cases (rows) and 5 variables (columns) named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species.
 ##Task/Problem to identify the Species-setosa/versicolor/virginica
 data=iris
 view(data)
